@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+.card,
+.chart-card {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card h2,
+.chart-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #444;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 13px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #667eea;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #667eea;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4f5fd1;
+    transform: translateY(-2px);
+}
+
+.result {
+    margin-top: 25px;
+    padding: 25px;
+    background: #f5f6ff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.score {
+    font-size: 45px;
+    font-weight: bold;
+    color: #667eea;
+    margin: 15px 0;
+}
+
+#performanceLevel {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#message {
+    color: #555;
+}
+
+.bar-container {
+    margin-bottom: 20px;
+}
+
+.bar-container span {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.bar {
+    height: 20px;
+    background: #e5e5e5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bar div {
+    height: 100%;
+    width: 0%;
+    background: #667eea;
+    border-radius: 20px;
+    transition: width 1s ease;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .card,
+    .chart-card {
+        padding: 20px;
+    }
+
+    .score {
+        font-size: 38px;
+    }
+
+}
