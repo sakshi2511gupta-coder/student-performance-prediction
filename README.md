@@ -2,6 +2,9 @@
 
 A simple and responsive web application that predicts student academic performance based on study hours, attendance, previous marks, and assignment score.
 
+# 🌐 Live Demo 
+https://sakshi2511gupta-coder.github.io/student-performance-prediction/
+
 ## 📌 Project Description
 
 The Student Performance Prediction Website is a beginner-friendly project developed using HTML, CSS, and JavaScript.
